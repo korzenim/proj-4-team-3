@@ -11,7 +11,7 @@ Link: https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?selec
 [Books.csv](add link) was 'left' merged with [Ratings.csv](add link) and all ratings of 0 were filled with NaN.  Book-Title column was cleaned by renaming books that had title variations (notebook[book_recommender-sparsity-0.5.ipynb](add link)).  This dataframe was exported as [books_ratings_clean_notfiltered.csv](books_ratings_clean_notfiltered.csv).
 
 ### Filtering of Dataset
-The books_ratings_clean_notfiltered.csv file was further processed for utilization in two different machine learning models: K-Nearest Neighbors and TensorFlow.  
+The [books_ratings_clean_notfiltered.csv](books_ratings_clean_notfiltered.csv) file was further processed for utilization in two different machine learning models: K-Nearest Neighbors and TensorFlow.  
 Code for filtering the dataset is available in file [book_recommender-sparsity-0.5.ipynb](add link).  
 The users with less than 15 books purchased, and books with less than 50 purchases were removed from the dataset.  These cutoff points were utilized to achieve a target sparsity of less than 99.5%.  This dataframe was exported to csv as [book_rating_cleandf.csv](add link).
 
