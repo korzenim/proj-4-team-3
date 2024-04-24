@@ -12,7 +12,7 @@ Link: https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?selec
 
 ### Filtering of Dataset
 The [books_ratings_clean_notfiltered.csv](books_ratings_clean_notfiltered.csv) file was further processed for utilization in two different machine learning models: K-Nearest Neighbors and TensorFlow.  
-Code for filtering the dataset is available in file [book_recommender-sparsity-0.5.ipynb](add link).  
+Code for filtering the dataset is available in file [book_recommender-sparsity-0.5.ipynb]("Steph Code/book_recommender-sparsity-0.5.ipynb").  
 The users with less than 15 books purchased, and books with less than 50 purchases were removed from the dataset.  These cutoff points were utilized to achieve a target sparsity of less than 99.5%.  This dataframe was exported to csv as [book_rating_cleandf.csv](add link).
 
 ### K-Nearest Neighbors Model
