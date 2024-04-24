@@ -8,7 +8,7 @@ Utilize machine learning models to produce book recommendations based on an inpu
 Link: https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Ratings.csv
 
 ### Cleaning of Dataset
-[Books.csv](add link) was 'left' merged with [Ratings.csv](add link) and all ratings of 0 were filled with NaN.  Book-Title column was cleaned by renaming books that had title variations (notebook[book_recommender-sparsity-0.5.ipynb](add link)).  This dataframe was exported as [books_ratings_clean_notfiltered.csv](add link).
+[Books.csv](add link) was 'left' merged with [Ratings.csv](add link) and all ratings of 0 were filled with NaN.  Book-Title column was cleaned by renaming books that had title variations (notebook[book_recommender-sparsity-0.5.ipynb](add link)).  This dataframe was exported as [books_ratings_clean_notfiltered.csv](books_ratings_clean_notfiltered.csv).
 
 ### Filtering of Dataset
 The books_ratings_clean_notfiltered.csv file was further processed for utilization in two different machine learning models: K-Nearest Neighbors and TensorFlow.  
