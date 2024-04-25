@@ -20,6 +20,9 @@ The code of the KNN model is availabe in jupyter notebook file [book_recommender
 A dataframe of book_rating_cleandf.csv was converted into a pivot table and then compressed into a sparse row matrix with SciPy. This matrix was found to have a sparsity of 99.5%.  
 A Scikit-learn K-Nearest Neighbors model was intitiated with a cosine measurement metric and brute algorithm.  The recommender model returns 5 book recommendations and 5 author recommendations.  The author recommendations are based on the return of nearest neighbor books.  The recommender model output was tested by querying the original dataset.  Heatmaps were constructed that visualize how individual users rate the recommended books.  Assessment users were selected based on a high rating of the model input book and their total number of ratings in the dataset.  The KNN model assessment revealed fairly accurate prediction of book satisfaction for a number of users.  
 
+### Presentation
+Link: https://docs.google.com/presentation/d/1ewG2QSMrgseDkAIhrMoUep8EpFYONvmFOu9wNQk0ufo/edit?pli=1#slide=id.p1
+
 ## Requirements
 ### Data Model Implementation (25 points)
 - A Python script initializes, trains, and evaluates a model (10 points)
